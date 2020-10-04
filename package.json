@@ -5,5 +5,14 @@
   "repository": "git@github.com:jtellis/hu-covid-resource-site.git",
   "author": "jtellis <jessetellis@gmail.com>",
   "license": "UNLISCENCED",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.8.10"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.10.4",
+    "parcel-bundler": "^1.12.4"
+  }
 }
