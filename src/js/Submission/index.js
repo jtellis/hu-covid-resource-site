@@ -6,6 +6,8 @@ import firebase from '../firebase';
 
 function Submission() {
 
+    let history = useHistory();
+
     let { county }= useParams();
 
     let submissions = firebase.firestore()
@@ -50,8 +52,8 @@ function Submission() {
                     ></input>
                 </div>
 
-                <input type="button" value="Cancel" />
-                <input type="submit" value="Submit" />
+                <input className="field btn" type="button" value="Cancel" onClick={() => history.push('/')} />
+                <input className="field btn" type="submit" value="Submit" />
             </form>
         </div>
     );
@@ -67,7 +69,8 @@ function Submission() {
         submission.county = county;
 
         submissions.add(submission);
-        // TODO: Nav to main page
+        
+        history.push('/');
     }
 }
 
