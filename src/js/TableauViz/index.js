@@ -36,6 +36,16 @@ function TableauViz ({ url, options={} }) {
         <div className="grid grid-cols-1 gap-4">
             <Resources county={county} />
             <div className="" ref={containerRef} />
+          <div className="grid grid-cols-1">
+            <div className="about-map">
+                <div className="expl-header">
+                    About this map
+                </div>
+                <div className="explaination">
+                    This map is generated through analyzing a combination of school funding and covid 19 infection rates at a county level. By giving each of the counties a rating based on how much they spend per student, with lower being worse, and based on covid 19 infections with respect to population, we've generated an assessment as to which counties are most susceptible to academic hardships during the pandemic, given on a scale from 0 to 1. Hovering over a location will give you the susceptibility rating and clicking it will show the resources available for that county.
+                </div>
+            </div>
+            </div>
         </div>
     );
 }
