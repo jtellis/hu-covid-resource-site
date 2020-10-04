@@ -6,6 +6,11 @@
   "author": "jtellis <jessetellis@gmail.com>",
   "license": "UNLISCENCED",
   "private": true,
+  "scripts": {
+    "dev": "parcel -p 5500 src/index.html",
+    "build": "parcel build --no-source-maps src/index.html",
+    "clean": "rm -r dist .cache"
+  },
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
