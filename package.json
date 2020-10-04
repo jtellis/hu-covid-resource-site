@@ -1,0 +1,9 @@
+{
+  "name": "hu-covid-resource-site",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "repository": "git@github.com:jtellis/hu-covid-resource-site.git",
+  "author": "jtellis <jessetellis@gmail.com>",
+  "license": "UNLISCENCED",
+  "private": true
+}
