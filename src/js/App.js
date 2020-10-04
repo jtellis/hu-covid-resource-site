@@ -13,7 +13,7 @@ render (
         <Router>
             <Switch>
                 <Route exact path="/">
-                    <TableauViz url='https://public.tableau.com/views/NYSCovidDashboard/Sheet1' />
+                    <TableauViz url='https://public.tableau.com/views/NYSCovidParentPortal/Sheet1' />
                 </Route>
                 <Route exact path="/submission/:county">
                     <Submission />
