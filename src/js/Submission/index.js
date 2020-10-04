@@ -46,6 +46,7 @@ function Submission() {
                         placeholder="https://example.com"
                         pattern="https?://.*"
                         size="30"
+                        required
                     ></input>
                 </div>
 
