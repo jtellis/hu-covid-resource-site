@@ -7,6 +7,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import { render } from 'react-dom';
 
 import tableau from './tableau-2.3.0';
+import Resources from '../Resources';
 
 function TableauViz ({ url, options={} }) {
 
@@ -33,10 +34,7 @@ function TableauViz ({ url, options={} }) {
 
     return (
         <div className="grid grid-cols-1 gap-4">
-            <div className="">
-                {county == "" && <h1>Please select a county on the map to see resources for that area.</h1>}
-                {county != "" && <h1>Showing results for <span className="text-lg">{county} County</span></h1>}
-            </div>
+            <Resources county={county} />
             <div className="" ref={containerRef} />
         </div>
     );
