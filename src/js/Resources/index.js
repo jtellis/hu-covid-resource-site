@@ -36,7 +36,7 @@ function Resources({ county }) {
                     <li className="border-l-2 bg-gray-100 border-blue-300 m-2 p-2" key={i}>
                         Name: {r.name}<br />
                         Description: {r.description}<br />
-                        URL: {r.url}
+                        URL: <a href="{r.url}">{r.url}</a>
                     </li>
                 ))}
             </ul>
