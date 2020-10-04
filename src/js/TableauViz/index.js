@@ -29,7 +29,13 @@ function onMarksSelection(marksEvent) {
 }
 
 function reportSelectedMarks(marks) {
-    console.log(marks);
+
+    let countyName = marks
+        .flatMap(x => x.getPairs())
+        .find(x => x.fieldName == "County")
+        .value;
+
+    console.log("County name is: ", countyName);
 }
 
 export default TableauViz;
