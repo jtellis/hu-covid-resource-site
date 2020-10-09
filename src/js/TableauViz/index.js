@@ -35,7 +35,7 @@ function TableauViz ({ url, options={} }) {
     return (
         <div className="grid grid-cols-1 gap-4">
             <Resources county={county} />
-            <div className="" ref={containerRef} />
+            <div className="map" ref={containerRef} />
           <div className="grid grid-cols-1">
             <div className="about-map">
                 <div className="expl-header">
