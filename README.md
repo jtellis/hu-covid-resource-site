@@ -10,6 +10,10 @@ The second goal is achieved through a collection of resources for families to us
 
 As for the technical aspects, our web app was built using Tableau for the visuals, the data was processed using python with beautifulsoup4 for scraping the web for some specific data we needed. The Tableau visual is rendered via React which also interacts with Tableau's API to respond to the user interacting with the map. The website also relies on Google Firebase to send and receive users' resources.
 
-## Hack Upstate Submission
+## Development
+
+This project was created by [J. White](https://github.com/WhiteWalz) and [Jesse Ellis](https://github.com/jtellis) with support from Ignacio Mejias. It was created during [Hack Upstate XV](https://hackupstate.com/events/xv).
+
+### Hack Upstate Submission
 
 [DEVPOST submission page](https://devpost.com/software/nys-covid-19-parent-portal)
