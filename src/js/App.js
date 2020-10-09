@@ -23,6 +23,7 @@ render (
         </main>
         <footer>
             <i>NYS COVID-19 Parent Portal</i> was created during Hack Upstate XV.
+            Learn more on <a className="underline" href="https://github.com/jtellis/hu-covid-resource-site#nys-covid-19-parent-portal">GitHub</a>.
         </footer>
     </React.StrictMode>,
 
